@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome" />
+	<listeners>
+	<listener class-name="com.myProject.Utility.ListenerTest"/>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<!-- <groups>
+			<run>
+				<include name="Sanity"></include>
+			</run>
+		</groups> -->
+		<classes>
+			<class name="com.myProject.TestCases.HomePageCase" />
+			<class name="com.myProject.TestCases.AboutPageCase" />
+			<class name="com.myProject.TestCases.ContactSalesTest" />
+			<class name="com.myProject.TestCases.GetFreeDemoTest" />
+			
+		</classes>
+	</test> <!-- test --><!-- -->
+</suite> <!-- Suite -->

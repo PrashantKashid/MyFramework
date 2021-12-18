@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.myProject.Utility.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.myProject.TestCases.AboutPageCase">
+        <methods>
+          <include name="endSuite"/>
+          <include name="pageSetup"/>
+          <include name="validateclickBtnGetFreeDemo"/>
+          <include name="validateclickbtngetFreeDemo"/>
+          <include name="startSuite"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.myProject.TestCases.AboutPageCase -->
+      <class name="com.myProject.TestCases.GetFreeDemoTest">
+        <methods>
+          <include name="endSuite"/>
+          <include name="pageSetup"/>
+          <include name="registerForFreeDemo" invocation-numbers="0 1"/>
+          <include name="end"/>
+          <include name="navigateToGetDemoPage"/>
+          <include name="startSuite"/>
+        </methods>
+      </class> <!-- com.myProject.TestCases.GetFreeDemoTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
