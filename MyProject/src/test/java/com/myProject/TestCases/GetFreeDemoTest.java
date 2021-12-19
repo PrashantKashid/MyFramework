@@ -71,16 +71,10 @@ public class GetFreeDemoTest extends Base {
 		demoPage.fillcountry(country);
 		demoPage.fillState(state);
 		Thread.sleep(30000);
-		// WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='recaptcha-anchor']/div[4]")));
-		// demoPage.clickCaptcha();
 		demoPage.clickButton();
-		// Thread.sleep(20000);
-		// String demoConfirmTitle = driver.getTitle();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement thank = wait.until(
 				ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[5]/div/div/div/div[1]/h1")));
-		// System.out.println(demoConfirmTitle);
 		sa.assertEquals(true, thank.isDisplayed());
 		test.log(Status.INFO, "User landed on confirmed registration.");
 		sa.assertAll();
@@ -140,8 +134,6 @@ public class GetFreeDemoTest extends Base {
 
 				}
 			}
-
-			// System.out.println();
 		}
 		return Total_data;
 	}

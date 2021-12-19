@@ -26,7 +26,7 @@ public class Base {
 	public static SoftAssert sa;
 
 	public void initialize(String browser) {
-		//String browser = "chrome";
+		// String browser = "chrome";
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver\\chromedriver.exe");
 			driver = new ChromeDriver();
@@ -41,12 +41,11 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
-
 	public void endTest() {
 		Base.driver.quit();
 
 	}
-	
+
 	@BeforeSuite
 	public void startSuite() {
 		extent = ExtentReportManager.getReports();

@@ -53,16 +53,9 @@ public class HomePageCase extends Base {
 
 	@Test(priority = 1, groups = "Sanity")
 	public void validatePageTitle() {
-		// test = extent.createTest("Case1:HomePage_Validate page title");
 		String homeTitle = hp.getTitle();
 		test.log(Status.INFO, "fetched title of page.");
 		sa.assertEquals(homeTitle, "OrangeHRM HR Software | Free HR Software | HRMS | HRIS");
-		/*
-		 * try { sa.assertEquals(homeTitle,
-		 * "OrangeHRM HR Software | Free HR Software | HRMS | HRIS"); } catch
-		 * (AssertionError e) { System.out.println(e.getMessage()); }
-		 */
-
 		sa.assertAll();
 	}
 
@@ -290,8 +283,6 @@ public class HomePageCase extends Base {
 
 				}
 			}
-
-			// System.out.println();
 		}
 		return Total_data;
 	}

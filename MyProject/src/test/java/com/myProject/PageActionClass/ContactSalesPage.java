@@ -11,16 +11,12 @@ public class ContactSalesPage {
 	public ContactSalesPage(WebDriver driver) {
 		this.driver = driver;
 	}
-	
+
 	@FindBy(xpath = "//*[@id=\"header-navbar\"]/ul[3]/li[1]/a")
 	WebElement btnConctactSales;
-	
-	public void navigateToContactSales()
-	{
+
+	public void navigateToContactSales() {
 		btnConctactSales.click();
 	}
-	
-	
-	
 
 }

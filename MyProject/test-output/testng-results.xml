@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="37" passed="26" failed="5" skipped="0">
+<testng-results ignored="6" total="36" passed="23" failed="6" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-18T21:50:43 IST" name="Suite" finished-at="2021-12-18T22:20:31 IST" duration-ms="1788162">
+  <suite started-at="2021-12-19T14:19:43 IST" name="Suite" finished-at="2021-12-19T14:33:12 IST" duration-ms="809518">
     <groups>
       <group name="Sanity">
         <method signature="HomePageCase.validatePageTitle()[pri:1, instance:com.myProject.TestCases.HomePageCase@776aec5c]" name="validatePageTitle" class="com.myProject.TestCases.HomePageCase"/>
         <method signature="HomePageCase.validateLogo()[pri:2, instance:com.myProject.TestCases.HomePageCase@776aec5c]" name="validateLogo" class="com.myProject.TestCases.HomePageCase"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2021-12-18T21:50:43 IST" name="Test" finished-at="2021-12-18T22:20:31 IST" duration-ms="1788162">
+    <test started-at="2021-12-19T14:19:43 IST" name="Test" finished-at="2021-12-19T14:33:12 IST" duration-ms="809518">
       <class name="com.myProject.TestCases.GetFreeDemoTest">
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:17:48 IST" name="pageSetup" finished-at="2021-12-18T22:18:38 IST" duration-ms="50622" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:32:11 IST" name="pageSetup" finished-at="2021-12-19T14:32:25 IST" duration-ms="13770" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="navigateToGetDemoPage()[pri:1, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:18:38 IST" name="navigateToGetDemoPage" finished-at="2021-12-18T22:18:49 IST" duration-ms="11142" status="FAIL">
+        <test-method signature="navigateToGetDemoPage()[pri:1, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:32:25 IST" name="navigateToGetDemoPage" finished-at="2021-12-19T14:32:27 IST" duration-ms="1980" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -70,11 +70,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToGetDemoPage -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:18:49 IST" name="end" finished-at="2021-12-18T22:18:50 IST" duration-ms="769" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:32:27 IST" name="end" finished-at="2021-12-19T14:32:27 IST" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:18:50 IST" name="pageSetup" finished-at="2021-12-18T22:19:18 IST" duration-ms="27429" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:32:27 IST" name="pageSetup" finished-at="2021-12-19T14:32:38 IST" duration-ms="10332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="registerForFreeDemo(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:2, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:19:18 IST" name="registerForFreeDemo" data-provider="Fetchdata" finished-at="2021-12-18T22:19:33 IST" duration-ms="15043" status="FAIL">
+        <test-method signature="registerForFreeDemo(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:2, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:32:38 IST" name="registerForFreeDemo" data-provider="Fetchdata" finished-at="2021-12-19T14:32:50 IST" duration-ms="12212" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -124,22 +124,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LSPL313-PC', ip: '192.168.251.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [54e5324951bf15f1f751b5f6a0de76cb, findElement {using=xpath, value=/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57163/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54e5324951bf15f1f751b5f6a0de76cb]]>
+Command: [60d497281f9e861eb63ea720540e488c, findElement {using=xpath, value=/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50836/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60d497281f9e861eb63ea720540e488c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select"}
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LSPL313-PC', ip: '192.168.251.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [54e5324951bf15f1f751b5f6a0de76cb, findElement {using=xpath, value=/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57163/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54e5324951bf15f1f751b5f6a0de76cb
+Command: [60d497281f9e861eb63ea720540e488c, findElement {using=xpath, value=/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50836/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60d497281f9e861eb63ea720540e488c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -159,7 +159,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy22.sendKeys(Unknown Source)
-at com.myProject.PageActionClass.GetFreeDemoPage.fillcountry(GetFreeDemoPage.java:93)
+at com.myProject.PageActionClass.GetFreeDemoPage.fillcountry(GetFreeDemoPage.java:86)
 at com.myProject.TestCases.GetFreeDemoTest.registerForFreeDemo(GetFreeDemoTest.java:71)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -195,11 +195,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerForFreeDemo -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:19:33 IST" name="end" finished-at="2021-12-18T22:19:34 IST" duration-ms="1264" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:32:50 IST" name="end" finished-at="2021-12-19T14:32:50 IST" duration-ms="674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:19:34 IST" name="pageSetup" finished-at="2021-12-18T22:20:13 IST" duration-ms="39152" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:32:50 IST" name="pageSetup" finished-at="2021-12-19T14:32:59 IST" duration-ms="8704" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,7 +210,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="registerForFreeDemo(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:2, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:20:13 IST" name="registerForFreeDemo" data-provider="Fetchdata" finished-at="2021-12-18T22:20:30 IST" duration-ms="16305" status="FAIL">
+        <test-method signature="registerForFreeDemo(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:2, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:32:59 IST" name="registerForFreeDemo" data-provider="Fetchdata" finished-at="2021-12-19T14:33:11 IST" duration-ms="12287" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -249,22 +249,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LSPL313-PC', ip: '192.168.251.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b21093312d36bdb4bd42d540fb81902c, findElement {using=xpath, value=/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57274/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b21093312d36bdb4bd42d540fb81902c]]>
+Command: [79f3113394358f199be4d17a746fd8b6, findElement {using=xpath, value=/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50909/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79f3113394358f199be4d17a746fd8b6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select"}
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LSPL313-PC', ip: '192.168.251.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b21093312d36bdb4bd42d540fb81902c, findElement {using=xpath, value=/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57274/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b21093312d36bdb4bd42d540fb81902c
+Command: [79f3113394358f199be4d17a746fd8b6, findElement {using=xpath, value=/html/body/section[1]/div/div/div/div/div[2]/div/div/form/fieldset/div[5]/div/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50909/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79f3113394358f199be4d17a746fd8b6
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -284,7 +284,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy22.sendKeys(Unknown Source)
-at com.myProject.PageActionClass.GetFreeDemoPage.fillcountry(GetFreeDemoPage.java:93)
+at com.myProject.PageActionClass.GetFreeDemoPage.fillcountry(GetFreeDemoPage.java:86)
 at com.myProject.TestCases.GetFreeDemoTest.registerForFreeDemo(GetFreeDemoTest.java:71)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -320,13 +320,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerForFreeDemo -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-18T22:20:30 IST" name="end" finished-at="2021-12-18T22:20:31 IST" duration-ms="1275" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.GetFreeDemoTest@22555ebf]" started-at="2021-12-19T14:33:11 IST" name="end" finished-at="2021-12-19T14:33:12 IST" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.myProject.TestCases.GetFreeDemoTest -->
       <class name="com.myProject.TestCases.AboutPageCase">
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:08:41 IST" name="pageSetup" finished-at="2021-12-18T22:09:13 IST" duration-ms="32510" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:29:55 IST" name="pageSetup" finished-at="2021-12-19T14:30:06 IST" duration-ms="11700" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -337,29 +337,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateclickBtnGetFreeDemo()[pri:1, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:09:13 IST" name="validateclickBtnGetFreeDemo" finished-at="2021-12-18T22:09:33 IST" duration-ms="19194" status="FAIL">
+        <test-method signature="validateclickBtnGetFreeDemo()[pri:1, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:30:06 IST" name="validateclickBtnGetFreeDemo" finished-at="2021-12-19T14:30:23 IST" duration-ms="16955" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3"}
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LSPL313-PC', ip: '192.168.251.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e9c89db6c802fb6ad25724fc791886b, findElement {using=xpath, value=//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55815/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e9c89db6c802fb6ad25724fc791886b]]>
+Command: [ca801dd905de4ac4f26fde4f7d156956, findElement {using=xpath, value=//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50202/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca801dd905de4ac4f26fde4f7d156956]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3"}
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LSPL313-PC', ip: '192.168.251.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e9c89db6c802fb6ad25724fc791886b, findElement {using=xpath, value=//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55815/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e9c89db6c802fb6ad25724fc791886b
+Command: [ca801dd905de4ac4f26fde4f7d156956, findElement {using=xpath, value=//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50202/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca801dd905de4ac4f26fde4f7d156956
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -415,11 +415,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickBtnGetFreeDemo -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:09:33 IST" name="end" finished-at="2021-12-18T22:09:33 IST" duration-ms="797" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:30:23 IST" name="end" finished-at="2021-12-19T14:30:25 IST" duration-ms="1305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:09:33 IST" name="pageSetup" finished-at="2021-12-18T22:10:12 IST" duration-ms="38293" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:30:25 IST" name="pageSetup" finished-at="2021-12-19T14:30:37 IST" duration-ms="12315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -430,15 +430,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateclickBtnPeopleMgmt()[pri:2, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:10:12 IST" name="validateclickBtnPeopleMgmt" finished-at="2021-12-18T22:10:30 IST" duration-ms="17976" status="PASS">
+        <test-method signature="validateclickBtnPeopleMgmt()[pri:2, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:30:37 IST" name="validateclickBtnPeopleMgmt" finished-at="2021-12-19T14:30:43 IST" duration-ms="6240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickBtnPeopleMgmt -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:10:30 IST" name="end" finished-at="2021-12-18T22:10:31 IST" duration-ms="980" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:30:43 IST" name="end" finished-at="2021-12-19T14:30:44 IST" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:10:31 IST" name="pageSetup" finished-at="2021-12-18T22:11:08 IST" duration-ms="37195" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:30:44 IST" name="pageSetup" finished-at="2021-12-19T14:30:54 IST" duration-ms="9796" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -449,29 +449,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateclickbtngetFreeDemo()[pri:3, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:11:08 IST" name="validateclickbtngetFreeDemo" finished-at="2021-12-18T22:11:29 IST" duration-ms="21138" status="FAIL">
+        <test-method signature="validateclickbtngetFreeDemo()[pri:3, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:30:54 IST" name="validateclickbtngetFreeDemo" finished-at="2021-12-19T14:31:09 IST" duration-ms="14799" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3"}
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LSPL313-PC', ip: '192.168.251.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d2d273e05342d5d19cb4d926edb1435, findElement {using=xpath, value=//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56099/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d2d273e05342d5d19cb4d926edb1435]]>
+Command: [2906e427528c62723a04f955b2a77d13, findElement {using=xpath, value=//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50366/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2906e427528c62723a04f955b2a77d13]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3"}
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LSPL313-PC', ip: '192.168.251.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d2d273e05342d5d19cb4d926edb1435, findElement {using=xpath, value=//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56099/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d2d273e05342d5d19cb4d926edb1435
+Command: [2906e427528c62723a04f955b2a77d13, findElement {using=xpath, value=//*[@id="demoRequest"]/div/div/div/div/div[1]/div/h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50366/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2906e427528c62723a04f955b2a77d13
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -527,11 +527,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickbtngetFreeDemo -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:11:29 IST" name="end" finished-at="2021-12-18T22:11:30 IST" duration-ms="1283" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:09 IST" name="end" finished-at="2021-12-19T14:31:09 IST" duration-ms="724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:11:30 IST" name="pageSetup" finished-at="2021-12-18T22:12:14 IST" duration-ms="43288" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:09 IST" name="pageSetup" finished-at="2021-12-19T14:31:17 IST" duration-ms="7344" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -542,15 +542,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateclickBtnCompensastion()[pri:4, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:12:14 IST" name="validateclickBtnCompensastion" finished-at="2021-12-18T22:12:37 IST" duration-ms="23799" status="PASS">
+        <test-method signature="validateclickBtnCompensastion()[pri:4, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:17 IST" name="validateclickBtnCompensastion" finished-at="2021-12-19T14:31:22 IST" duration-ms="5617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickBtnCompensastion -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:12:37 IST" name="end" finished-at="2021-12-18T22:12:38 IST" duration-ms="810" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:22 IST" name="end" finished-at="2021-12-19T14:31:23 IST" duration-ms="730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:12:38 IST" name="pageSetup" finished-at="2021-12-18T22:13:41 IST" duration-ms="62414" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:23 IST" name="pageSetup" finished-at="2021-12-19T14:31:31 IST" duration-ms="8336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -561,15 +561,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateclickbtnTalentMgmt()[pri:5, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:13:41 IST" name="validateclickbtnTalentMgmt" finished-at="2021-12-18T22:14:05 IST" duration-ms="24417" status="PASS">
+        <test-method signature="validateclickbtnTalentMgmt()[pri:5, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:31 IST" name="validateclickbtnTalentMgmt" finished-at="2021-12-19T14:31:37 IST" duration-ms="5331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickbtnTalentMgmt -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:14:05 IST" name="end" finished-at="2021-12-18T22:14:06 IST" duration-ms="827" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:37 IST" name="end" finished-at="2021-12-19T14:31:37 IST" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:14:06 IST" name="pageSetup" finished-at="2021-12-18T22:15:09 IST" duration-ms="63198" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:37 IST" name="pageSetup" finished-at="2021-12-19T14:31:47 IST" duration-ms="9730" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -580,21 +580,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateclickbtnCulture()[pri:6, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:15:09 IST" name="validateclickbtnCulture" finished-at="2021-12-18T22:15:42 IST" duration-ms="33328" status="PASS">
+        <test-method signature="validateclickbtnCulture()[pri:6, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:47 IST" name="validateclickbtnCulture" finished-at="2021-12-19T14:31:53 IST" duration-ms="5292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickbtnCulture -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-18T22:15:42 IST" name="end" finished-at="2021-12-18T22:15:43 IST" duration-ms="882" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.AboutPageCase@206a70ef]" started-at="2021-12-19T14:31:53 IST" name="end" finished-at="2021-12-19T14:31:53 IST" duration-ms="895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.myProject.TestCases.AboutPageCase -->
       <class name="com.myProject.TestCases.HomePageCase">
-        <test-method is-config="true" signature="startSuite()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:50:42 IST" name="startSuite" finished-at="2021-12-18T21:50:43 IST" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="startSuite()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:19:42 IST" name="startSuite" finished-at="2021-12-19T14:19:43 IST" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startSuite -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:50:43 IST" name="pageSetup" finished-at="2021-12-18T21:51:19 IST" duration-ms="36711" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:19:43 IST" name="pageSetup" finished-at="2021-12-19T14:20:01 IST" duration-ms="17966" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -605,15 +605,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validatePageTitle()[pri:1, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:51:19 IST" name="validatePageTitle" finished-at="2021-12-18T21:51:19 IST" duration-ms="46" status="PASS">
+        <test-method signature="validatePageTitle()[pri:1, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:20:01 IST" name="validatePageTitle" finished-at="2021-12-19T14:20:01 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:51:19 IST" name="end" finished-at="2021-12-18T21:51:20 IST" duration-ms="791" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:20:01 IST" name="end" finished-at="2021-12-19T14:20:02 IST" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:51:20 IST" name="pageSetup" finished-at="2021-12-18T21:51:50 IST" duration-ms="30205" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:20:02 IST" name="pageSetup" finished-at="2021-12-19T14:20:18 IST" duration-ms="16452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -624,15 +624,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateLogo()[pri:2, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:51:50 IST" name="validateLogo" finished-at="2021-12-18T21:51:51 IST" depends-on-methods="com.myProject.TestCases.HomePageCase.validatePageTitle" duration-ms="115" status="PASS">
+        <test-method signature="validateLogo()[pri:2, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:20:18 IST" name="validateLogo" finished-at="2021-12-19T14:20:18 IST" depends-on-methods="com.myProject.TestCases.HomePageCase.validatePageTitle" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogo -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:51:51 IST" name="end" finished-at="2021-12-18T21:51:51 IST" duration-ms="729" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:20:18 IST" name="end" finished-at="2021-12-19T14:20:19 IST" duration-ms="849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:51:52 IST" name="pageSetup" finished-at="2021-12-18T21:52:30 IST" duration-ms="38032" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:20:20 IST" name="pageSetup" finished-at="2021-12-19T14:21:25 IST" duration-ms="64622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -643,7 +643,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateFNFreeTrailButton(java.lang.String,java.lang.String)[pri:3, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:52:30 IST" name="validateFNFreeTrailButton" data-provider="FetchEmail" finished-at="2021-12-18T21:52:36 IST" duration-ms="5887" status="PASS">
+        <test-method signature="validateFNFreeTrailButton(java.lang.String,java.lang.String)[pri:3, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:21:25 IST" name="validateFNFreeTrailButton" data-provider="FetchEmail" finished-at="2021-12-19T14:21:35 IST" duration-ms="10100" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -656,14 +656,88 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='myText']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f67e7c028b5dfabf6d1505eca38ab773, findElement {using=xpath, value=//*[@id='myText']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64601/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f67e7c028b5dfabf6d1505eca38ab773]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='myText']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LSPL313-PC', ip: '192.168.106.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f67e7c028b5dfabf6d1505eca38ab773, findElement {using=xpath, value=//*[@id='myText']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\LSPL313\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64601/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f67e7c028b5dfabf6d1505eca38ab773
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy22.sendKeys(Unknown Source)
+at com.myProject.PageActionClass.HomePage.fnGetTrail(HomePage.java:129)
+at com.myProject.TestCases.HomePageCase.validateFNFreeTrailButton(HomePageCase.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFNFreeTrailButton -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:52:36 IST" name="end" finished-at="2021-12-18T21:52:37 IST" duration-ms="779" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:21:35 IST" name="end" finished-at="2021-12-19T14:21:36 IST" duration-ms="806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:52:37 IST" name="pageSetup" finished-at="2021-12-18T21:53:15 IST" duration-ms="37933" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:21:36 IST" name="pageSetup" finished-at="2021-12-19T14:23:42 IST" duration-ms="126095" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -674,7 +748,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateFNFreeTrailButton(java.lang.String,java.lang.String)[pri:3, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:53:15 IST" name="validateFNFreeTrailButton" data-provider="FetchEmail" finished-at="2021-12-18T21:53:21 IST" duration-ms="6330" status="PASS">
+        <test-method signature="validateFNFreeTrailButton(java.lang.String,java.lang.String)[pri:3, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:23:42 IST" name="validateFNFreeTrailButton" data-provider="FetchEmail" finished-at="2021-12-19T14:23:50 IST" duration-ms="7804" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -690,42 +764,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFNFreeTrailButton -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:53:21 IST" name="end" finished-at="2021-12-18T21:53:22 IST" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:23:50 IST" name="end" finished-at="2021-12-19T14:23:50 IST" duration-ms="760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:53:22 IST" name="pageSetup" finished-at="2021-12-18T21:53:48 IST" duration-ms="25940" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="validateFNFreeTrail(java.lang.String,java.lang.String)[pri:4, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:53:48 IST" name="validateFNFreeTrail" data-provider="FetchEmail" finished-at="2021-12-18T21:53:53 IST" depends-on-methods="com.myProject.TestCases.HomePageCase.validateFNFreeTrailButton" duration-ms="4701" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateFNFreeTrail(java.lang.String,java.lang.String)[pri:4, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:23:50 IST" name="validateFNFreeTrail" finished-at="2021-12-19T14:23:50 IST" depends-on-methods="com.myProject.TestCases.HomePageCase.validateFNFreeTrailButton" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method HomePageCase.validateFNFreeTrail(java.lang.String,java.lang.String)[pri:4, instance:com.myProject.TestCases.HomePageCase@776aec5c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method HomePageCase.validateFNFreeTrail(java.lang.String,java.lang.String)[pri:4, instance:com.myProject.TestCases.HomePageCase@776aec5c] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFNFreeTrail -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:53:53 IST" name="end" finished-at="2021-12-18T21:53:54 IST" duration-ms="879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:53:54 IST" name="pageSetup" finished-at="2021-12-18T21:54:18 IST" duration-ms="24491" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:23:50 IST" name="pageSetup" finished-at="2021-12-19T14:24:09 IST" duration-ms="18142" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -736,46 +811,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateFNFreeTrail(java.lang.String,java.lang.String)[pri:4, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:54:18 IST" name="validateFNFreeTrail" data-provider="FetchEmail" finished-at="2021-12-18T21:54:26 IST" depends-on-methods="com.myProject.TestCases.HomePageCase.validateFNFreeTrailButton" duration-ms="7894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abcd@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateFNFreeTrail -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:54:26 IST" name="end" finished-at="2021-12-18T21:54:27 IST" duration-ms="797" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:54:27 IST" name="pageSetup" finished-at="2021-12-18T21:54:56 IST" duration-ms="28709" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="testAllLinksForHP()[pri:5, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:54:56 IST" name="testAllLinksForHP" finished-at="2021-12-18T21:55:03 IST" duration-ms="7213" status="PASS">
+        <test-method signature="testAllLinksForHP()[pri:5, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:24:09 IST" name="testAllLinksForHP" finished-at="2021-12-19T14:24:15 IST" duration-ms="6403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllLinksForHP -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:55:03 IST" name="end" finished-at="2021-12-18T21:55:04 IST" duration-ms="858" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:24:15 IST" name="end" finished-at="2021-12-19T14:24:16 IST" duration-ms="801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:55:04 IST" name="pageSetup" finished-at="2021-12-18T21:55:23 IST" duration-ms="19443" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:24:16 IST" name="pageSetup" finished-at="2021-12-19T14:24:32 IST" duration-ms="16270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -786,15 +830,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavaigationPlatform()[pri:6, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:55:23 IST" name="validateNavaigationPlatform" finished-at="2021-12-18T21:55:31 IST" duration-ms="7754" status="PASS">
+        <test-method signature="validateNavaigationPlatform()[pri:6, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:24:32 IST" name="validateNavaigationPlatform" finished-at="2021-12-19T14:24:38 IST" duration-ms="6162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavaigationPlatform -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:55:31 IST" name="end" finished-at="2021-12-18T21:55:32 IST" duration-ms="863" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:24:38 IST" name="end" finished-at="2021-12-19T14:24:39 IST" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:55:32 IST" name="pageSetup" finished-at="2021-12-18T21:56:04 IST" duration-ms="32189" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:24:39 IST" name="pageSetup" finished-at="2021-12-19T14:25:00 IST" duration-ms="20578" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -805,15 +849,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavigationWhyOrangeHRM()[pri:7, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:56:04 IST" name="validateNavigationWhyOrangeHRM" finished-at="2021-12-18T21:56:15 IST" duration-ms="11209" status="PASS">
+        <test-method signature="validateNavigationWhyOrangeHRM()[pri:7, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:00 IST" name="validateNavigationWhyOrangeHRM" finished-at="2021-12-19T14:25:06 IST" duration-ms="6192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigationWhyOrangeHRM -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:56:15 IST" name="end" finished-at="2021-12-18T21:56:16 IST" duration-ms="891" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:06 IST" name="end" finished-at="2021-12-19T14:25:07 IST" duration-ms="926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:56:16 IST" name="pageSetup" finished-at="2021-12-18T21:57:16 IST" duration-ms="59857" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:07 IST" name="pageSetup" finished-at="2021-12-19T14:25:22 IST" duration-ms="15585" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -824,15 +868,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavigationReSources()[pri:8, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:57:16 IST" name="validateNavigationReSources" finished-at="2021-12-18T21:57:18 IST" duration-ms="1802" status="PASS">
+        <test-method signature="validateNavigationReSources()[pri:8, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:22 IST" name="validateNavigationReSources" finished-at="2021-12-19T14:25:29 IST" duration-ms="6185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigationReSources -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:57:18 IST" name="end" finished-at="2021-12-18T21:57:19 IST" duration-ms="731" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:29 IST" name="end" finished-at="2021-12-19T14:25:29 IST" duration-ms="839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:57:19 IST" name="pageSetup" finished-at="2021-12-18T21:58:13 IST" duration-ms="54063" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:29 IST" name="pageSetup" finished-at="2021-12-19T14:25:45 IST" duration-ms="15694" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -843,15 +887,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavigationCompany()[pri:9, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:58:13 IST" name="validateNavigationCompany" finished-at="2021-12-18T21:58:15 IST" duration-ms="2051" status="PASS">
+        <test-method signature="validateNavigationCompany()[pri:9, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:45 IST" name="validateNavigationCompany" finished-at="2021-12-19T14:25:50 IST" duration-ms="4420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigationCompany -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:58:15 IST" name="end" finished-at="2021-12-18T21:58:16 IST" duration-ms="817" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:50 IST" name="end" finished-at="2021-12-19T14:25:50 IST" duration-ms="846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:58:16 IST" name="pageSetup" finished-at="2021-12-18T21:59:09 IST" duration-ms="53180" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:25:50 IST" name="pageSetup" finished-at="2021-12-19T14:26:11 IST" duration-ms="20501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -862,15 +906,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="navigateToHRAdministrationThroughButton()[pri:10, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:59:09 IST" name="navigateToHRAdministrationThroughButton" finished-at="2021-12-18T21:59:25 IST" duration-ms="16613" status="PASS">
+        <test-method signature="navigateToHRAdministrationThroughButton()[pri:10, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:26:11 IST" name="navigateToHRAdministrationThroughButton" finished-at="2021-12-19T14:26:16 IST" duration-ms="5271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHRAdministrationThroughButton -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:59:25 IST" name="end" finished-at="2021-12-18T21:59:26 IST" duration-ms="1008" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:26:16 IST" name="end" finished-at="2021-12-19T14:26:17 IST" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T21:59:26 IST" name="pageSetup" finished-at="2021-12-18T22:00:13 IST" duration-ms="46196" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:26:17 IST" name="pageSetup" finished-at="2021-12-19T14:26:32 IST" duration-ms="14733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -881,15 +925,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="navigateEmployeeMgmtThroughButton()[pri:11, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:00:13 IST" name="navigateEmployeeMgmtThroughButton" finished-at="2021-12-18T22:00:29 IST" duration-ms="16102" status="PASS">
+        <test-method signature="navigateEmployeeMgmtThroughButton()[pri:11, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:26:32 IST" name="navigateEmployeeMgmtThroughButton" finished-at="2021-12-19T14:26:43 IST" duration-ms="10716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateEmployeeMgmtThroughButton -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:00:29 IST" name="end" finished-at="2021-12-18T22:00:29 IST" duration-ms="798" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:26:43 IST" name="end" finished-at="2021-12-19T14:26:43 IST" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:00:29 IST" name="pageSetup" finished-at="2021-12-18T22:01:16 IST" duration-ms="46826" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:26:43 IST" name="pageSetup" finished-at="2021-12-19T14:27:07 IST" duration-ms="23797" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -900,15 +944,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="navigateReportingThroughButton()[pri:12, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:01:16 IST" name="navigateReportingThroughButton" finished-at="2021-12-18T22:01:28 IST" duration-ms="11503" status="PASS">
+        <test-method signature="navigateReportingThroughButton()[pri:12, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:07 IST" name="navigateReportingThroughButton" finished-at="2021-12-19T14:27:13 IST" duration-ms="5529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateReportingThroughButton -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:01:28 IST" name="end" finished-at="2021-12-18T22:01:29 IST" duration-ms="799" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:13 IST" name="end" finished-at="2021-12-19T14:27:14 IST" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:01:29 IST" name="pageSetup" finished-at="2021-12-18T22:02:32 IST" duration-ms="63908" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:14 IST" name="pageSetup" finished-at="2021-12-19T14:27:28 IST" duration-ms="14594" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -919,15 +963,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavigatePerformanceManagement()[pri:13, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:02:32 IST" name="validateNavigatePerformanceManagement" finished-at="2021-12-18T22:02:56 IST" duration-ms="23338" status="PASS">
+        <test-method signature="validateNavigatePerformanceManagement()[pri:13, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:28 IST" name="validateNavigatePerformanceManagement" finished-at="2021-12-19T14:27:32 IST" duration-ms="4092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigatePerformanceManagement -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:02:56 IST" name="end" finished-at="2021-12-18T22:02:57 IST" duration-ms="830" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:32 IST" name="end" finished-at="2021-12-19T14:27:33 IST" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:02:57 IST" name="pageSetup" finished-at="2021-12-18T22:03:56 IST" duration-ms="59587" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:33 IST" name="pageSetup" finished-at="2021-12-19T14:27:47 IST" duration-ms="14371" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -938,15 +982,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavigateCarrerDevelopment()[pri:14, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:03:56 IST" name="validateNavigateCarrerDevelopment" finished-at="2021-12-18T22:04:09 IST" duration-ms="12317" status="PASS">
+        <test-method signature="validateNavigateCarrerDevelopment()[pri:14, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:47 IST" name="validateNavigateCarrerDevelopment" finished-at="2021-12-19T14:27:52 IST" duration-ms="4200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigateCarrerDevelopment -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:04:09 IST" name="end" finished-at="2021-12-18T22:04:09 IST" duration-ms="829" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:52 IST" name="end" finished-at="2021-12-19T14:27:53 IST" duration-ms="838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:04:09 IST" name="pageSetup" finished-at="2021-12-18T22:04:58 IST" duration-ms="48888" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:27:53 IST" name="pageSetup" finished-at="2021-12-19T14:28:12 IST" duration-ms="19178" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -957,15 +1001,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateClickOnTraining()[pri:15, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:04:58 IST" name="validateClickOnTraining" finished-at="2021-12-18T22:05:15 IST" duration-ms="16896" status="PASS">
+        <test-method signature="validateClickOnTraining()[pri:15, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:28:12 IST" name="validateClickOnTraining" finished-at="2021-12-19T14:28:18 IST" duration-ms="5843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnTraining -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:05:15 IST" name="end" finished-at="2021-12-18T22:05:16 IST" duration-ms="741" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:28:18 IST" name="end" finished-at="2021-12-19T14:28:18 IST" duration-ms="935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:05:16 IST" name="pageSetup" finished-at="2021-12-18T22:06:03 IST" duration-ms="47191" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:28:18 IST" name="pageSetup" finished-at="2021-12-19T14:28:34 IST" duration-ms="15501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -976,15 +1020,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateLearnTalentMgmt()[pri:16, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:06:03 IST" name="validateLearnTalentMgmt" finished-at="2021-12-18T22:06:13 IST" duration-ms="10177" status="PASS">
+        <test-method signature="validateLearnTalentMgmt()[pri:16, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:28:34 IST" name="validateLearnTalentMgmt" finished-at="2021-12-19T14:28:39 IST" duration-ms="4511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLearnTalentMgmt -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:06:13 IST" name="end" finished-at="2021-12-18T22:06:14 IST" duration-ms="960" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:28:39 IST" name="end" finished-at="2021-12-19T14:28:39 IST" duration-ms="823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:06:14 IST" name="pageSetup" finished-at="2021-12-18T22:06:51 IST" duration-ms="36321" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:28:39 IST" name="pageSetup" finished-at="2021-12-19T14:29:09 IST" duration-ms="29466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -995,15 +1039,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavigateToRecruitmentPage()[pri:17, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:06:51 IST" name="validateNavigateToRecruitmentPage" finished-at="2021-12-18T22:06:59 IST" duration-ms="8331" status="PASS">
+        <test-method signature="validateNavigateToRecruitmentPage()[pri:17, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:29:09 IST" name="validateNavigateToRecruitmentPage" finished-at="2021-12-19T14:29:17 IST" duration-ms="8529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigateToRecruitmentPage -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:06:59 IST" name="end" finished-at="2021-12-18T22:07:00 IST" duration-ms="879" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:29:17 IST" name="end" finished-at="2021-12-19T14:29:18 IST" duration-ms="862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:07:00 IST" name="pageSetup" finished-at="2021-12-18T22:07:37 IST" duration-ms="37683" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:29:18 IST" name="pageSetup" finished-at="2021-12-19T14:29:33 IST" duration-ms="14741" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1014,15 +1058,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavigateToRecruitmentPageThroughButton()[pri:18, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:07:37 IST" name="validateNavigateToRecruitmentPageThroughButton" finished-at="2021-12-18T22:07:48 IST" duration-ms="10463" status="PASS">
+        <test-method signature="validateNavigateToRecruitmentPageThroughButton()[pri:18, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:29:33 IST" name="validateNavigateToRecruitmentPageThroughButton" finished-at="2021-12-19T14:29:37 IST" duration-ms="4013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigateToRecruitmentPageThroughButton -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:07:48 IST" name="end" finished-at="2021-12-18T22:07:49 IST" duration-ms="893" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:29:37 IST" name="end" finished-at="2021-12-19T14:29:38 IST" duration-ms="881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:07:49 IST" name="pageSetup" finished-at="2021-12-18T22:08:30 IST" duration-ms="41107" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:29:38 IST" name="pageSetup" finished-at="2021-12-19T14:29:49 IST" duration-ms="10862" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1033,21 +1077,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateNavigateToOnBoardingPageThroughButton()[pri:19, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:08:30 IST" name="validateNavigateToOnBoardingPageThroughButton" finished-at="2021-12-18T22:08:40 IST" duration-ms="10044" status="PASS">
+        <test-method signature="validateNavigateToOnBoardingPageThroughButton()[pri:19, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:29:49 IST" name="validateNavigateToOnBoardingPageThroughButton" finished-at="2021-12-19T14:29:54 IST" duration-ms="4976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigateToOnBoardingPageThroughButton -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:08:40 IST" name="end" finished-at="2021-12-18T22:08:41 IST" duration-ms="905" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:29:54 IST" name="end" finished-at="2021-12-19T14:29:55 IST" duration-ms="971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="endSuite()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-18T22:20:31 IST" name="endSuite" finished-at="2021-12-18T22:20:32 IST" duration-ms="596" status="PASS">
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:com.myProject.TestCases.HomePageCase@776aec5c]" started-at="2021-12-19T14:33:12 IST" name="endSuite" finished-at="2021-12-19T14:33:13 IST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSuite -->
       </class> <!-- com.myProject.TestCases.HomePageCase -->
       <class name="com.myProject.TestCases.ContactSalesTest">
-        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.ContactSalesTest@292b08d6]" started-at="2021-12-18T22:15:43 IST" name="pageSetup" finished-at="2021-12-18T22:17:17 IST" duration-ms="93315" status="PASS">
+        <test-method is-config="true" signature="pageSetup(java.lang.String)[pri:0, instance:com.myProject.TestCases.ContactSalesTest@292b08d6]" started-at="2021-12-19T14:31:53 IST" name="pageSetup" finished-at="2021-12-19T14:32:06 IST" duration-ms="12658" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1058,11 +1102,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="navigateToContactSalesPage()[pri:1, instance:com.myProject.TestCases.ContactSalesTest@292b08d6]" started-at="2021-12-18T22:17:17 IST" name="navigateToContactSalesPage" finished-at="2021-12-18T22:17:47 IST" duration-ms="30135" status="PASS">
+        <test-method signature="navigateToContactSalesPage()[pri:1, instance:com.myProject.TestCases.ContactSalesTest@292b08d6]" started-at="2021-12-19T14:32:06 IST" name="navigateToContactSalesPage" finished-at="2021-12-19T14:32:10 IST" duration-ms="4035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToContactSalesPage -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.ContactSalesTest@292b08d6]" started-at="2021-12-18T22:17:47 IST" name="end" finished-at="2021-12-18T22:17:48 IST" duration-ms="935" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.myProject.TestCases.ContactSalesTest@292b08d6]" started-at="2021-12-19T14:32:10 IST" name="end" finished-at="2021-12-19T14:32:11 IST" duration-ms="656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

@@ -53,68 +53,63 @@ public class HomePage {
 
 	@FindBy(xpath = "//*[@id='header-navbar']/ul[1]/li[4]/ul/div/div/div/p[1]/a")
 	WebElement lnkSubCatAboutUS;
-	
+
 	@FindBy(xpath = "//h1[text()='About OrangeHRM']")
 	WebElement sectionAboutUS;
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[1]/div[2]/ul/li[1]/a/div[2]/div/p")
 	WebElement lnkHRAdministration;
-	
+
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div/div/div/h3")
 	WebElement sectionHRAdministration;
-	
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[1]/div[2]/ul/li[2]/a/div[2]/div/p")
 	WebElement buttonEmpMgmt;
-	
+
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div/div/div/h3")
 	WebElement sectionEmpMgmt;
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[1]/div[2]/ul/li[3]/a/div[2]/div/p")
 	WebElement buttonReporting;
-	
+
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div/div/div/h3")
 	WebElement sectionReporting;
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[2]/div[1]/div[1]/div/div/a/button")
 	WebElement btnCultureLearnMore;
-	
+
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div/div/div/h3")
 	WebElement sectionPerformanceManagement;
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[2]/div[2]/ul/li[1]/a/div[2]/div/p")
 	WebElement btnPerformance;
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[2]/div[2]/ul/li[2]/a/div[2]/div/p")
 	WebElement btnCareerDevelopment;
-	
+
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div/div/div/h3")
 	WebElement sectionCareerDevelopment;
-	
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[2]/div[2]/ul/li[3]/a/div[2]/div/p")
 	WebElement btnTraining;
-	
+
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div/div/div/h3")
 	WebElement sectionTraining;
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[3]/div[1]/div[2]/div/div/a/button")
 	WebElement btnLearnMoreTalentMgmt;
-	
+
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div/div/div/h3")
 	WebElement sectionRecruitment;
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[3]/div[2]/ul/li[1]/a/div[2]/div/p")
 	WebElement btnRecruitment;
-	
-	
+
 	@FindBy(xpath = "/html/body/div[5]/div[3]/div[3]/div[2]/ul/li[2]/a/div[2]/div/p")
 	WebElement btnOnboarding;
-	
+
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div/div/div/h3")
 	WebElement sectionOnboarding;
-	
-	
 
 	// ---------------------Methods-----------------------------------------
 
@@ -155,78 +150,55 @@ public class HomePage {
 		lnkSubCatAboutUS.click();
 		return sectionAboutUS.isDisplayed();
 	}
-	
-	public boolean buttonHRAdministartion()
-	{
+
+	public boolean buttonHRAdministartion() {
 		lnkHRAdministration.click();
 		return sectionHRAdministration.isDisplayed();
 	}
-	
-	
-	public boolean buttonEmployeeMgmt()
-	{
+
+	public boolean buttonEmployeeMgmt() {
 		buttonEmpMgmt.click();
 		return sectionEmpMgmt.isDisplayed();
 	}
-	
-	public boolean buttonReportingCheck()
-	{
+
+	public boolean buttonReportingCheck() {
 		buttonReporting.click();
 		return sectionReporting.isDisplayed();
 	}
-	
-	public boolean clickOnCultureLearn()
-	{
+
+	public boolean clickOnCultureLearn() {
 		btnCultureLearnMore.click();
-		return sectionPerformanceManagement.isDisplayed();	
+		return sectionPerformanceManagement.isDisplayed();
 	}
 
-	public boolean clickOnPerformanceButton()
-	{
+	public boolean clickOnPerformanceButton() {
 		btnPerformance.click();
-		return sectionPerformanceManagement.isDisplayed();	
+		return sectionPerformanceManagement.isDisplayed();
 	}
-	
-	public boolean clickOnCarrerDevelopment()
-	{
+
+	public boolean clickOnCarrerDevelopment() {
 		btnCareerDevelopment.click();
-		return sectionCareerDevelopment.isDisplayed();	
+		return sectionCareerDevelopment.isDisplayed();
 	}
-	
-	public boolean clickOnTraining()
-	{
+
+	public boolean clickOnTraining() {
 		btnTraining.click();
-		return sectionTraining.isDisplayed();	
+		return sectionTraining.isDisplayed();
 	}
-	
-	public boolean clickOnLearnMgmtBtn()
-	{
+
+	public boolean clickOnLearnMgmtBtn() {
 		btnLearnMoreTalentMgmt.click();
 		return sectionRecruitment.isDisplayed();
 	}
-	
-	public boolean clickbtnRecruitment()
-	{
+
+	public boolean clickbtnRecruitment() {
 		btnRecruitment.click();
 		return sectionRecruitment.isDisplayed();
 	}
-	
-	public boolean clickbtnOnBoarding()
-	{
+
+	public boolean clickbtnOnBoarding() {
 		btnOnboarding.click();
 		return sectionOnboarding.isDisplayed();
 	}
-	
-	
-	
-	
-	
-	
 
-
-	
-	
-	
-	
-	
 }
