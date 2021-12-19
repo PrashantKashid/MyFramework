@@ -17,6 +17,16 @@
           <include name="end"/>
         </methods>
       </class> <!-- com.myProject.TestCases.AboutPageCase -->
+      <class name="com.myProject.TestCases.HomePageCase">
+        <methods>
+          <include name="endSuite"/>
+          <include name="validateFNFreeTrailButton" invocation-numbers="0"/>
+          <include name="end"/>
+          <include name="pageSetup"/>
+          <include name="startSuite"/>
+          <include name="validateFNFreeTrail"/>
+        </methods>
+      </class> <!-- com.myProject.TestCases.HomePageCase -->
       <class name="com.myProject.TestCases.GetFreeDemoTest">
         <methods>
           <include name="endSuite"/>
