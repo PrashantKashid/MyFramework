@@ -25,10 +25,6 @@ public class Base {
 	public static ExtentTest test;
 	public static SoftAssert sa;
 
-	/*
-	 * ExtentReports extent; ExtentReports test;
-	 */
-
 	public void initialize(String browser) {
 		//String browser = "chrome";
 		if (browser.equalsIgnoreCase("chrome")) {
@@ -44,12 +40,6 @@ public class Base {
 		driver.navigate().to("https://www.orangehrm.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
-
-	/*
-	 * public void navigateTo() {
-	 * 
-	 * }
-	 */
 
 
 	public void endTest() {
@@ -67,13 +57,5 @@ public class Base {
 	public void endSuite() {
 		extent.flush();
 	}
-
-	/*
-	 * public static ExtentReports getInstance() { ExtentReports extent; //extent =
-	 * new //ExtentSparkReporter spark = new
-	 * ExtentSparkReporter("target/Spark.html"); //extent.attachReporter(spark);
-	 * 
-	 * //return extent; }
-	 */
 
 }
